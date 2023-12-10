@@ -6,9 +6,9 @@ public class Main {
     public static void main(String[] args) {
         Connection dbConnection = null;
         try {
-            String jdbcURL = "jdbc:mysql://localhost:3306/healthcare_db";
+            String jdbcURL = "jdbc:mysql://localhost:3306/my_database";
             String dbUsername = "your_username";
-            String dbPassword = "$Usmani1";
+            String dbPassword = "your_password";
 
             dbConnection = DriverManager.getConnection(jdbcURL, dbUsername, dbPassword);
             System.out.println("Database connection established.");
