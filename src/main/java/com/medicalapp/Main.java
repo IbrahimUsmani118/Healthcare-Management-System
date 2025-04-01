@@ -1,3 +1,5 @@
+package com.medicalapp;
+
 import java.sql.Connection;
 import java.sql.Date;
 import java.sql.DriverManager;
@@ -59,6 +61,5 @@ public class Main {
         System.out.println("Visit Date: " + retrievedRecord.getVisitDate());
         System.out.println("Diagnosis: " + retrievedRecord.getDiagnosis());
         System.out.println("Treatment Plan: " + retrievedRecord.getTreatmentPlan());
-
    }
 }

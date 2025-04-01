@@ -1,3 +1,7 @@
+package com.medicalapp;
+
+import java.sql.Date;
+
 public class MedicalRecord {
 
     private int id;

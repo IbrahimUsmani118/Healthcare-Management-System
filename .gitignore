@@ -1,0 +1,41 @@
+# Clacky-related configuration
+.1024*
+!.1024
+.breakpoints
+
+# Java-specific files
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# IDE-specific files and directories
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+nbproject/
+nb-configuration.xml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+.directory
+*~
+
+# Maven-specific files
+target/
+
+# Diffblue-specific files
+.diffblue/
+diffblue.yml
+diffblue-cover.yml
