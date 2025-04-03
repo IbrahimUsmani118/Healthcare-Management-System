@@ -6,9 +6,9 @@ import java.sql.Statement;
 
 public class DatabaseSchemaConnection {
     public static void main(String[] args) {
-        String jdbcURL = "jdbc:mysql://localhost:3306/healthcare_db";
-        String username = "your_username";
-        String password = "$Usmani1"; // Change the password
+        String mysqlURL = "mysql://avnadmin:password@mysql-1184aba2-onlyibrahim13-ff30.i.aivencloud.com:12768/defaultdb?ssl-mode=REQUIRED";
+        String username = "avnadmin";
+        String password = "password"; // Change the password
 
         try {
             Connection connection = DriverManager.getConnection(jdbcURL, username, password);
